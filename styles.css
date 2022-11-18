@@ -1,0 +1,57 @@
+.player1 { background-image: url('img/tp_pbb.png'); }
+.player2 { background-image: url('img/tp_rwb.png'); }
+
+.board {
+    height: 600px;
+    width: 600px;
+    border: 2px outset;
+    border-radius: 10px;
+    background-image: url('img/wood-grain-texture.jpg');
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-color: rgb(83, 88, 12);
+}
+
+.square {
+    border: 2px inset;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    margin: 8px;
+}
+
+.token {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10rem;
+}
+
+#title {
+    background-color: rgba(194, 99, 22, 0.911);
+    margin: 2px;
+    width: 600px;
+    color: rgb(87, 55, 23);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 4px;
+}
+
+#board-footer {
+    height: 100px;
+    width: 600px;
+    margin: 1px;
+    background-color: rgba(194, 99, 22, 0.911);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+#btnNewGame {
+    color: rgb(240, 129, 17);
+    background-color: rgb(129, 78, 28);
+    font-size: 24px;
+    border-color: rgb(150, 77, 9);
+}
